@@ -1,0 +1,39 @@
+.task-item {
+  list-style-type: none;
+  background-color: #1a171d;
+  height: 15px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin: 5px;
+  
+}
+
+.task-name {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.task-category {
+  background-color: #f3aa4e;
+  border: 0px;
+  border-radius: 20px;
+  height: 50px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: #131213;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center; 
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
